@@ -113,4 +113,4 @@ MPSTME, NMIMS Mumbai Campus
 ---
 
 ## 🙋‍♂️ Want to Hire Me?
-If you're a company looking for a student with real-world skills in AI, ML, and applied engineering — this is just the start. Let's connect on [LinkedIn](https://www.linkedin.com/) or drop me a message!
+If you're a company looking for a student with real-world skills in AI, ML, and applied engineering — this is just the start. Let's connect on [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/aarav-mehta-16a183337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) or drop me a message!
