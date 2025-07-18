@@ -50,3 +50,67 @@ LSTM-RandomForest-XGBoost-Stock-Predictor/
 ├── models/ # Contains saved models
 ├── README.md
 ├── LICENSE # MIT License
+
+---
+
+## 🧪 How to Run
+
+### ✅ 1. Install Dependencies
+pip install -r requirements.txt
+If no requirements.txt, install manually
+pip install yfinance numpy pandas scikit-learn xgboost tensorflow optuna
+
+---
+
+### ✅ 2. Run Prediction Scripts
+#### Without Optuna (default hyperparameters):
+python "LSTM+Random Forest+XGboost Stock Predictor.py"
+
+#### With Optuna (automatic tuning):
+python "LSTM+Random Forest+XGboost Stock Predictor with optuna.py"
+
+---
+
+### ✅ 3. Backtest the System
+python backtest.py
+This will simulate trades and give statistics based on past 3 years of stock data.
+
+---
+
+## 📊 Output Example
+📈 Processing RELIANCE...
+✅ Trained RF | Accuracy: 0.72 | F1: 0.75  
+✅ Trained XGB | Accuracy: 0.74 | F1: 0.77  
+✅ Trained LSTM | Accuracy: 0.76 | F1: 0.79  
+🔎 RF Signal: BUY  
+🔎 XGB Signal: BUY  
+🔎 LSTM Signal: SELL  
+🟢 Final Signal: BUY  
+
+
+---
+
+## 🧠 Why This Project Matters
+
+✅ Real-world applicability  
+✅ Combines traditional ML and DL  
+✅ Good F1/accuracy across multiple models  
+✅ Shows model saving, loading, and production-like behavior  
+✅ Demonstrates ability to tune, backtest, and validate system performance
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+Aarav Vinayak Mehta
+B.Tech Integrated Computer Engineering  
+MPSTME, NMIMS Mumbai Campus 
+
+---
+
+## 🙋‍♂️ Want to Hire Me?
+If you're a company looking for a student with real-world skills in AI, ML, and applied engineering — this is just the start. Let's connect on [LinkedIn](https://www.linkedin.com/) or drop me a message!
